@@ -1,0 +1,36 @@
+body {
+  color: #17252a;
+}
+.projects-continer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3aafa9;
+  gap: 50px;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  font-family: sans;
+  letter-spacing: 1px;
+}
+
+.about-projects {
+  width: 670px;
+  padding: 7px;
+}
+
+@media (max-width: 680px) {
+  .about-projects {
+    width: 330px;
+    padding: 7px;
+  }
+  .projects-continer h1 {
+    font-size: 30px;
+  }
+  .projects-continer p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

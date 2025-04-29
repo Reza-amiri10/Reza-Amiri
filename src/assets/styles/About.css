@@ -1,0 +1,222 @@
+body {
+  background-color: #def2f1;
+  color: #17252a;
+}
+.profile-continer {
+  /* background-color: rgb(247, 236, 221); */
+  background-color: #3aafa9;
+  width: 50%;
+  padding: 100px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50%;
+  padding-top: 60px;
+}
+
+.profile-image-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* background-color: rgb(220, 211, 200); */
+  background-color: #1f8f8b;
+  width: 370px;
+  height: 460px;
+  padding: 70px;
+  padding-top: 50px;
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 10px 10px 0 #2e5868;
+}
+
+.profile-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 40px;
+  width: 390px;
+  padding-bottom: 30px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+}
+
+.profile-bio p {
+  width: 300px;
+  font-size: 16px;
+  font-family: sans;
+  font-weight: 100;
+}
+
+.profile-bio h1 {
+  width: 300px;
+  font-size: 90px;
+  font-family: sans;
+  font-weight: 400;
+}
+
+.profile-bio h3 {
+  width: 300px;
+  font-size: 28px;
+  font-family: sans;
+  font-weight: 100;
+}
+
+.social-media-contact {
+  display: flex;
+  width: 370px;
+  justify-content: center;
+  background-color: #def2f1;
+  padding: 10px;
+  margin-top: 86px;
+  border-radius: 0 0 0 10px;
+  gap: 15px;
+}
+
+.social-media-contact img {
+  width: 20px;
+}
+
+.profile-image-title h2 {
+  font-size: 28px;
+  font-family: sans;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.profile-image-title h3 {
+  font-size: 19px;
+  font-family: sans;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.profile-image-title h1 {
+  font-size: 10px;
+}
+
+.resume-project-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.resume-project-btn button {
+  width: 6rem;
+  height: 1.7rem;
+  background-color: #17252a;
+  border: 0;
+  border-radius: 7px;
+}
+
+.resume-project-btn button:hover {
+  background-color: #def2f1;
+  border: solid 1px;
+}
+
+.resume-project-btn a:hover {
+  color: #17252a;
+}
+.resume-project-btn a {
+  color: #feffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 680px) {
+  .profile-continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3aafa9;
+    width: 100%;
+    height: 100vh;
+    padding-top: 500px;
+    padding-bottom: 400px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #def2f1;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 #2e5868;
+  }
+
+  .profile-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 50px;
+    width: 330px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+  }
+
+  .profile-image-title {
+    border-radius: 10px 10px 0 0;
+    width: 330px;
+    height: 400px;
+    box-shadow: none;
+  }
+
+  .social-media-contact {
+    width: 330px;
+    border-radius: 0;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .profile-bio p {
+    width: 280px;
+    font-size: 14px;
+    font-family: sans;
+    font-weight: 400;
+  }
+
+  .profile-bio h1 {
+    width: 200px;
+    font-size: 50px;
+    font-family: sans;
+    font-weight: 300;
+  }
+
+  .profile-bio h3 {
+    width: 280px;
+    font-size: 20px;
+    font-family: sans;
+    font-weight: 400;
+  }
+
+  .resume-project-btn button {
+    width: 5rem;
+    height: 1.3rem;
+    background-color: #17252a;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 10px;
+  }
+  .resume-project-btn a {
+    color: #feffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 11px;
+  }
+  .resume-project-btn button:hover {
+    background-color: #2b7a78;
+    border: solid 1px;
+  }
+
+  .resume-project-btn a:hover {
+    color: black;
+  }
+}

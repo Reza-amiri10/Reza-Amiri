@@ -1,0 +1,53 @@
+.resume-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #def2f1;
+  width: 670px;
+  height: 300px;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  font-family: sans;
+  box-shadow: 0 10px 10px 0 #2e5868;
+}
+
+.resume-card-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 630px;
+}
+.resume-card-titles h1 {
+  font-size: 20px;
+  color: rgb(0, 78, 156);
+}
+.resume-card-titles h2 {
+  font-size: 15px;
+}
+.resume-card-titles h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.explanition-tex p {
+  font-size: 14px;
+  font-weight: 400;
+}
+@media (max-width: 680px) {
+  .resume-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 330px;
+    height: fit-content;
+    padding-left: 40px;
+  }
+  .resume-card-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+  }
+}
