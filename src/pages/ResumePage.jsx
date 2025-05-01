@@ -9,12 +9,16 @@ export default function ResumePage() {
       <div>
         <h1> ⃣ Resume</h1>
       </div>
+      <div className="all-resume-titles"><h1>Summary</h1><button>Download CV</button></div>
+      <ResumeWhiteCard
+        expText="Detail-oriented Full-Stack Web Developer with 1+ years of experience designing, developing, and deploying dynamic web applications. Proficient in modern frameworks including React, Node.js, and Express, with a strong understanding of REST APIs, relational and non-relational databases, and cloud services. Passionate about building clean, scalable, and user-friendly solutions in agile environments."
+      />
 
       <div className="all-resume-titles">
         <h1>Experience</h1>
-        <button>Download</button>
+    
       </div>
-
+  
       <ResumeWhiteCard
         jYear="Present"
         jPosition="Volunteer / English Teacher"
@@ -76,6 +80,13 @@ Oversaw procurement, budgeting, and scheduling, resulting in successful on-time 
         cName=""
         cLocation="Turkey"
         expText=" Three weeks Leadership English Teaching  (LET) camp organized and supported by Americancouncil and US Department of State."
+      />
+            <ResumeWhiteCard
+        jYear="2024 - Present"
+        jPosition="RFI"
+        cName=""
+        cLocation="Turkey-Online"
+        expText=""
       />
       <div className="all-resume-titles">
         <h1>Skills</h1>
