@@ -8,12 +8,24 @@ export default function SkillsCard(props) {
         <h1>Professional skills:</h1>
         <div className="skills-list">
           <ul>
-            <li>Entrepreneurial Mindset</li>
-            <li>Go-to-Market Planning</li>
-            <li>Teamwork & Collaboration</li>
-            <li>Digital Analytics</li>
-            <li></li>
-            <li></li>
+          <li>Problem Solving 
+          </li>
+            <li>Cultural Awareness</li>
+            <li>Excellent Listening Abilities</li>
+            <li>Written Translation </li>
+            <li>Management</li>
+            <li>Leadership</li>
+            <li>Teaching</li>
+            <li>Understanding Technology  
+            </li>
+            <li>Eager to Learn New Skills  
+            </li>Great Communication Skills
+            <li>Kind and respectful
+
+            </li>
+            <li>Problem Solving 
+            </li>
+
           </ul>
         </div>
       </div>
@@ -21,11 +33,11 @@ export default function SkillsCard(props) {
         <h1> Languages:</h1>
         <div className="languages-list">
           <ul>
-            <li>English (native)</li>
-            <li>French (proficient)</li>
-            <li>Spanish (proficient)</li>
-            <li></li>
-            <li></li>
+            <li>Fluent in English
+            </li>
+            <li>Fluent in Turkish
+            </li>
+            <li>Native Persian</li>
           </ul>
         </div>
       </div>
