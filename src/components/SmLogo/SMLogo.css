@@ -1,0 +1,16 @@
+.sm-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #def2f1;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+}
+.sm-logo img {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+  }
+  

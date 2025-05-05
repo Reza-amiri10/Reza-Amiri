@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ProfileImage from "../components/Profile/Profile";
+import SMLogo from "../components/SmLogo/SMLogo";
 import "../assets/styles/About.css";
 
 export default function About() {
@@ -34,17 +35,16 @@ export default function About() {
               ""
             )}
             <div className="social-media-contact">
-              <a href="#">
-                <img src="/images/facebook.png" />
-              </a>
+              <a><SMLogo img="/images/facebook.png"/></a>
+            
               <a href="https://x.com/reza19184310">
-                <img src="/images/x.png" />
+                <SMLogo img="/images/x.png" />
               </a>
               <a href="https://www.linkedin.com/in/reza-amiri-4362b8335/">
-                <img src="/images/linkden.png" />
+                <SMLogo img="/images/linkden.png" />
               </a>
               <a href="#">
-                <img src="/images/insta.png" />
+                <SMLogo img="/images/insta.png" />
               </a>
             </div>
           </div>
