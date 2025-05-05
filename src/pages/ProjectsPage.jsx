@@ -1,11 +1,17 @@
 import React from "react";
 import "../assets/styles/ProjectsPage.css";
 import ProjectCard from "../components/ProjectCard";
+import Logo from "../components/Logo/Logo"
+
 
 export default function ProjectsPage() {
   return (
     <div className="projects-continer">
-      <h1> ⃣ Projects</h1>
+      <div className="logo-title">
+        <Logo />
+        <h1>Projects</h1>
+      </div>
+      
       <div className="about-projects">
         <p>
           I'm a full-stack web developer open to work with any kind of sofware based project I am looking forward to work with you.

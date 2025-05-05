@@ -1,5 +1,6 @@
 body {
   color: #17252a;
+  font-family: 'Inter', sans-serif;
 }
 .projects-continer {
   display: flex;
@@ -12,10 +13,13 @@ body {
   padding-top: 130px;
   padding-bottom: 100px;
   flex-wrap: wrap;
-  font-family: sans;
   letter-spacing: 1px;
 }
-
+.logo-title{
+  display: flex;
+  flex-direction: row;
+  
+}
 .about-projects {
   width: 670px;
   padding: 7px;

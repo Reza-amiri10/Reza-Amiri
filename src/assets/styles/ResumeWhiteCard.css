@@ -1,3 +1,6 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
 .resume-box {
   display: flex;
   flex-direction: row;
@@ -9,7 +12,6 @@
   padding: 50px;
   border-radius: 8px;
   letter-spacing: 1px;
-  font-family: sans;
   box-shadow: 0 10px 10px 0 #2e5868;
 }
 

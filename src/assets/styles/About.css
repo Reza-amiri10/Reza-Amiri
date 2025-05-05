@@ -1,6 +1,7 @@
 body {
   background-color: #def2f1;
   color: #17252a;
+  font-family: 'Inter', sans-serif;
 }
 .profile-continer {
   /* background-color: rgb(247, 236, 221); */
@@ -41,28 +42,24 @@ body {
   padding-left: 30px;
   width: 390px;
   padding-bottom: 30px;
-  font-weight: 100;
   letter-spacing: 1.2px;
 }
 
 .profile-bio p {
   width: 300px;
   font-size: 16px;
-  font-family: sans;
   font-weight: 100;
 }
 
 .profile-bio h1 {
   width: 300px;
   font-size: 90px;
-  font-family: sans;
   font-weight: 400;
 }
 
 .profile-bio h3 {
   width: 300px;
   font-size: 28px;
-  font-family: sans;
   font-weight: 100;
 }
 
@@ -83,7 +80,6 @@ body {
 
 .profile-image-title h2 {
   font-size: 28px;
-  font-family: sans;
   letter-spacing: 1px;
   font-weight: 400;
   padding-top: 10px;
@@ -91,13 +87,13 @@ body {
 
 .profile-image-title h3 {
   font-size: 19px;
-  font-family: sans;
   letter-spacing: 1px;
   font-weight: 500;
 }
 
 .profile-image-title h1 {
   font-size: 10px;
+  color: #def2f1;
 }
 
 .resume-project-btn {
@@ -158,7 +154,6 @@ body {
     padding-top: 50px;
     width: 330px;
     padding-bottom: 30px;
-    font-weight: 100;
     letter-spacing: 1.2px;
   }
 
@@ -179,21 +174,17 @@ body {
   .profile-bio p {
     width: 280px;
     font-size: 14px;
-    font-family: sans;
-    font-weight: 400;
   }
 
   .profile-bio h1 {
     width: 200px;
     font-size: 50px;
-    font-family: sans;
-    font-weight: 300;
+
   }
 
   .profile-bio h3 {
     width: 280px;
     font-size: 20px;
-    font-family: sans;
     font-weight: 400;
   }
 

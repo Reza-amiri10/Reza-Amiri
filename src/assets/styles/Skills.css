@@ -1,3 +1,6 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
 .skills-box {
   display: flex;
   flex-direction: row;
@@ -9,7 +12,6 @@
   padding: 20px;
   gap: 50px;
   border-radius: 10px;
-  font-family: sans;
   letter-spacing: 1px;
   box-shadow: 0 10px 10px 0 #2e5868;
 }

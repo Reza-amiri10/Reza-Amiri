@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import SMLogo from "../SmLogo/SMLogo";
+
 
 const Footer = () => {
   return (
@@ -27,16 +29,16 @@ const Footer = () => {
           <h4>Follow</h4>
           <div className="social-links">
             <a href="#">
-              <img src="/images/facebook.png" alt="Facebook" />
+              <SMLogo img="/images/facebook.png" alt="Facebook" />
             </a>
             <a href="https://x.com/reza19184310">
-              <img src="/images/x.png" alt="X" />
+              <SMLogo img="/images/x.png" alt="X" />
             </a>
             <a href="https://www.linkedin.com/in/reza-amiri-4362b8335/">
-              <img src="/images/linkden.png" alt="LinkedIn" />
+              <SMLogo img="/images/linkden.png" alt="LinkedIn" />
             </a>
             <a href="#">
-              <img src="/images/x.png" alt="Instagram" />
+              <SMLogo img="/images/x.png" alt="Instagram" />
             </a>
           </div>
         </div>

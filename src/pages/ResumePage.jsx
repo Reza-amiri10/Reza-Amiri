@@ -2,12 +2,14 @@ import React, { useState, useEffect } from "react";
 import "../assets/styles/ResumePage.css";
 import ResumeWhiteCard from "../components/ResumeWhiteCard";
 import SkillsCard from "../components/SkillsCard";
+import Logo from "../components/Logo/Logo"
 
 export default function ResumePage() {
   return (
     <div className="resume-continer">
-      <div>
-        <h1> ⃣ Resume</h1>
+      <div className="logo-title">
+      <Logo />
+        <h1> Resume</h1>
       </div>
       <div className="all-resume-titles"><h1>Summary</h1><button>Download CV</button></div>
       <ResumeWhiteCard

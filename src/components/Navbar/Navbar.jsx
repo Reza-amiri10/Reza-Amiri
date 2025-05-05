@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Logo from "../Logo/Logo";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,8 +11,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
+        <Logo />
         <Link to="/" onClick={closeMenu}>
-          ⃣ Reza Amiri
+          Reza Amiri
         </Link>
       </div>
 
