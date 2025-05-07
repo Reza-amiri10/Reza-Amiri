@@ -1,5 +1,4 @@
 body {
-  color: #17252a;
   font-family: 'Inter', sans-serif;
 }
 .projects-continer {
@@ -7,7 +6,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3aafa9;
+  background-color: #6b7280;;
   gap: 50px;
   width: 100%;
   padding-top: 130px;
@@ -22,19 +21,21 @@ body {
 }
 .about-projects {
   width: 670px;
-  padding: 7px;
+  padding: 4px;
 }
 
 @media (max-width: 680px) {
   .about-projects {
     width: 330px;
-    padding: 7px;
+    padding: 4px;
   }
   .projects-continer h1 {
     font-size: 30px;
+    color: white;
   }
-  .projects-continer p {
+  .about-projects p {
+    width: 334px;
     font-size: 14px;
-    font-weight: 400;
+    color:white;
   }
 }

@@ -5,10 +5,10 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #def2f1;
+  background-color: #1f2937;
   padding: 2rem 1.5rem;
   text-align: center;
-  color: #17252a;
+  color: white;
   font-size: 0.95rem;
   bottom: 0;
   width: 100%;
@@ -41,13 +41,13 @@ body{
 }
 
 .email-link {
-  color: #023387d8;
+  color: #3b82f6;
   text-decoration: none;
   margin-top: 0.5rem;
 }
 
 .email-link:hover {
-  color: blue;
+  color: #6ea4fb;
 }
 
 .follow {
@@ -94,8 +94,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #def2f1;
-    color: black;
+    background-color: #1f2937;
+    color: white;
     padding: 2rem 1.5rem;
     text-align: center;
     font-size: 0.95rem;

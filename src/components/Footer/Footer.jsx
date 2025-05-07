@@ -29,7 +29,7 @@ const Footer = () => {
           <h4>Follow</h4>
           <div className="social-links">
             <a href="#">
-              <SMLogo img="/images/facebook.png" alt="Facebook" />
+              <SMLogo img="/images/youtub.png" alt="Facebook" />
             </a>
             <a href="https://x.com/reza19184310">
               <SMLogo img="/images/x.png" alt="X" />
@@ -38,7 +38,10 @@ const Footer = () => {
               <SMLogo img="/images/linkden.png" alt="LinkedIn" />
             </a>
             <a href="#">
-              <SMLogo img="/images/x.png" alt="Instagram" />
+              <SMLogo img="/images/insta.png" alt="Instagram" />
+            </a>
+            <a href="https://x.com/reza19184310">
+              <SMLogo img="/images/wats.png" />
             </a>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default function About() {
               ""
             )}
             <div className="social-media-contact">
-              <a><SMLogo img="/images/facebook.png"/></a>
+              <a><SMLogo img="/images/youtub.png"/></a>
             
               <a href="https://x.com/reza19184310">
                 <SMLogo img="/images/x.png" />
@@ -45,6 +45,9 @@ export default function About() {
               </a>
               <a href="#">
                 <SMLogo img="/images/insta.png" />
+              </a>
+              <a href="https://x.com/reza19184310">
+                <SMLogo img="/images/wats.png" />
               </a>
             </div>
           </div>

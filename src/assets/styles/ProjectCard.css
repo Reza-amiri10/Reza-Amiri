@@ -6,16 +6,19 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #def2f1;
+  background-color: #f3f4f6;
   width: 670px;
   height: 300px;
   padding-left: 30px;
   border-radius: 10px;
   gap: 20px;
   letter-spacing: 1px;
-  box-shadow: 0 10px 10px 0 #2e5868;
+  box-shadow: 0px 10px 10px 10px #4b505a;
 }
-
+.projdect-box:hover{
+  margin: 3px;
+  box-shadow: 0px 0px 4px 4px #4b505a;
+}
 .project-title {
   display: flex;
   flex-direction: column;

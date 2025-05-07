@@ -8,16 +8,19 @@ body{
   justify-content: center;
   width: 670px;
   height: fit-content;
-  background-color: #def2f1;
+  background-color: #f3f4f6;
   padding: 20px;
   gap: 50px;
   border-radius: 10px;
   letter-spacing: 1px;
-  box-shadow: 0 10px 10px 0 #2e5868;
+  box-shadow: 0px 10px 10px 10px #4b505a;
 }
-
+.skills-box:hover{
+  margin: 3px;
+  box-shadow: 0px 0px 4px 4px #4b505a;
+}
 .professional-skills {
-  width: 300px;
+  width: 270px;
 }
 
 .professional-skills h1 {
@@ -54,6 +57,6 @@ body{
   .skills-box {
     flex-direction: column;
     width: 330px;
-    padding-left: 40px;
+    padding: 40px;
   }
 }
