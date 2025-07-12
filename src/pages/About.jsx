@@ -57,7 +57,7 @@ export default function About() {
         </div>
 
         <div className="profile-bio">
-          <h1>About Reza</h1>
+          <h1>About Me</h1>
 
           {windowWidth > 768 ? (
             <div className="resume-project-btn">
