@@ -11,12 +11,6 @@ export default function ProjectsPage() {
         <Logo />
         <h1>Projects</h1>
       </div>
-      
-      <div className="about-projects">
-        <p>
-          I'm a full-stack web developer open to work with any kind of sofware based project I am looking forward to work with you.
-        </p>
-      </div>
       <ProjectCard
         pName="Project name 01"
         rTitle="Role Title"

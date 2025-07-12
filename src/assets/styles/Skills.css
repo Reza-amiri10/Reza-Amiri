@@ -8,16 +8,17 @@ body{
   justify-content: center;
   width: 670px;
   height: fit-content;
-  background-color: #f3f4f6;
+  background-color: #3d4451;
   padding: 20px;
   gap: 50px;
   border-radius: 10px;
   letter-spacing: 1px;
-  box-shadow: 0px 10px 10px 10px #4b505a;
+  box-shadow: 0px 4px 15px (0, 0, 0, 0.1);
+  color: white;
 }
 .skills-box:hover{
   margin: 3px;
-  box-shadow: 0px 0px 4px 4px #4b505a;
+  box-shadow: 0px 5px 15px 5px (0, 0, 0, 0.1);
 }
 .professional-skills {
   width: 270px;

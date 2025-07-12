@@ -2,14 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #def2f1;
-  width: 30px;
-  height: 30px;
+  background-color: #b9a17f;
+  width: 35px;
+  height: 35px;
   border-radius: 100%;
   transition: all 0.3s ease;
 }
 .sm-logo:hover {
-  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  border: 3.5px solid #b9a17f;
 }
 .sm-logo img {
     width: 20px;
@@ -17,7 +19,7 @@
     border-radius: 100%;
   }
   .sm-logo img:hover {
-    width: 34px;
-    height: 34px;
+    width: 33px;
+    height: 33px;
     border-radius: 100%;
   }

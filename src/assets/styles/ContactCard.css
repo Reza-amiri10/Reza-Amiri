@@ -6,11 +6,17 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #def2f1;
+  background-color: #4a5160;
   width: 740px;
   height: 440px;
   border-radius: 8px;
-  box-shadow: 0 10px 10px 0 #2e5868;
+  box-shadow: 0px 4px 15px #141212;
+
+ 
+}
+.contact-box:hover{
+  margin: 3px;
+  box-shadow: 0px 5px 15px 5px #232020;
 }
 .fname-lname {
   display: flex;
@@ -39,8 +45,9 @@ textarea {
   padding-top: 20px;
   border: 0;
   border-bottom: 1px solid;
-  background-color: #def2f1;
+  background-color: #4a5160;
   resize: none;
+  color: white;
 }
 textarea {
   padding-bottom: 120px;
@@ -53,14 +60,14 @@ input:focus {
   padding: 0;
   height: 30px;
   border: 0;
-  background-color: #17252a;
+  background-color: #3b82f6;
   color: #feffff;
   border-radius: 7px;
   font-size: 17px;
 }
 
 .select-country {
-  background-color: #def2f1;
+  background-color: #4a5160;
   width: 100px;
   border: 0;
   padding-top: 20px;
@@ -76,16 +83,17 @@ input:focus {
 }
 
 #submit:hover {
-  background-color: #def2f1;
-  border: solid #17252a;
-  color: #17252a;
+  background-color: #4a5160;
+  border: solid #3b82f6;
+  color: #3b82f6;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 600px)and (max-width: 768px){
   .contact-box {
     width: 350px;
     height: fit-content;
     padding: 30px;
+    margin-bottom: 20px;
   }
   .fname-lname {
     flex-direction: column;
@@ -107,11 +115,12 @@ input:focus {
     padding-left: 4px;
   }
   .select-country {
-    background-color: #def2f1;
+    background-color: #4a5160;
     width: 270px;
     border: 0;
     padding-top: 20px;
-    border-bottom: 1px solid #17252a;
+    border-bottom: 1px solid white;
     outline: none;
   }
 }
+

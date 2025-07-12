@@ -1,19 +1,21 @@
 body {
-  background-color: #f3f4f6;
+  background-color: #2a2f45;
   color: white;
   font-family: 'Inter', sans-serif;
 }
 .profile-continer {
-  background-color: #6b7280;
-  width: 50%;
-  padding: 100px;
+  background-color: #1e1e2f;
+  width: 45%;
+  height: 110vh;
+  padding: 50px;
 }
 
 .profile {
   display: flex;
   flex-direction: row;
-  padding-left: 60%;
-  padding-top: 60px;
+  padding-left: 20%;
+  padding-top: 90px;
+  
 }
 
 .profile-image-title {
@@ -23,19 +25,19 @@ body {
   align-items: center;
   text-align: center;
   /* background-color: rgb(220, 211, 200); */
-  background-color: #5c636f;
-  width: 340px;
-  height: 460px;
+  background-color: #3d4451;
+  width: 550px;
+  height: 670px;
   padding: 40px;
   padding-top: 50px;
   margin: 0;
   border-radius: 10px 0 0 10px;
-  box-shadow: 0 10px 10px 0 #4b505a;
+  box-shadow: 0px 4px 15px #141212;
 
 }
 .profile-image-title:hover{
   margin: 3px;
-  box-shadow: 0px 0px 4px 4px #4b505a;
+  box-shadow: 0px 5px 15px 5px #232020;
 
 }
 
@@ -43,29 +45,41 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 25px;
-  padding-left: 30px;
-  width: 400px;
+  gap: 20px;
+  padding-left: 0px;
+  padding-top: 50px;
+  width: 650px;
+  height: 620px;
   padding-bottom: 30px;
   letter-spacing: 1.2px;
+  padding-left: 30px;
 }
-
-.profile-bio p {
-  width: 312px;
+p a{
+  color: #3b82f6;
+  text-decoration: none;
+}
+p a:hover{
   font-size: 16px;
-  color: black;
+}
+.profile-bio p {
+  padding-top: 10px;
+  width: 450px;
+  font-size: 14px;
+  color: white;
+  text-align:left;
 }
 
 .profile-bio h1 {
-  width: 300px;
-  font-size: 90px;
-  color: black;
+  width: 350px;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .profile-bio h3 {
   width: 310px;
   font-size: 28px;
-  color: black;
+  color:white;
 }
 
 .social-media-contact {
@@ -84,48 +98,52 @@ body {
 }
 
 .profile-image-title h2 {
-  font-size: 28px;
+  font-size: 38px;
   letter-spacing: 1px;
   padding-top: 10px;
   color: white;
 }
 
 .profile-image-title h3 {
-  font-size: 19px;
+  font-size: 30px;
   letter-spacing: 1px;
   color: white;
 
 }
 
 .profile-image-title h1 {
-  font-size: 10px;
-  color: #def2f1;
+  font-size: 25px;
+  color: #b9a17f;
 }
 
 .resume-project-btn {
+  padding-left: 40px;
   display: flex;
-  gap: 20px;
+  gap: 70px;
 }
 
 .resume-project-btn button {
-  width: 6rem;
-  height: 1.7rem;
+  font-size: 17px;
+  width: 7rem;
+  height: 2rem;
   background-color: #3b82f6;
   border: 0;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .resume-project-btn button:hover {
-  background-color: #f3f4f6;
-  width: 6.3rem;
-  height: 2rem;
-  border: solid 1.2px black;
-  color: black;
+  background-color: #2a2f45;
+  width: 7.5rem;
+  height: 2.5rem;
+  border: solid 2px #3b82f6;
+  color: #3b82f6;
 
 }
-
+.resume-project-btn button:hover a{
+  color: #3b82f6;
+}
 .resume-project-btn a:hover {
-  color: black;
+  color: #3b82f6;
 }
 .resume-project-btn a {
   color: #feffff;
@@ -133,57 +151,53 @@ body {
   letter-spacing: 1px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 767px) {
   .profile-continer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #6b7280;;
+    background-color: #1e1e2f;;
     width: 100%;
     height: 100vh;
-    padding-top: 500px;
-    padding-bottom: 400px;
+    padding-top: 890px;
+    padding-bottom: 600px;
   }
   .profile {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    height: fit-content;
     padding: 0;
     margin: 0;
-    background-color: #f3f4f6;
-    border-radius: 10px;
-    box-shadow: 0 10px 10px 0 #4b505a;
-  }
-  .profile:hover{
-    margin-top: 10px;
-    box-shadow: 0px 0px 4px 4px #4b505a;
-
   }
   .profile-image-title:hover{
-    width: 330px;
-    height: 460px;
-    box-shadow: none;
+    margin: 3px;
+    box-shadow: 0px 5px 15px 5px #232020;
   }
   .profile-bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding-left: 30px;
-    padding-top: 50px;
-    width: 330px;
-    padding-bottom: 30px;
+    padding: 0;
+    padding-top: 420px;
+    width: 340px;
+    padding-bottom: 595px;
     letter-spacing: 1.2px;
   }
 
   .profile-image-title {
-    border-radius: 10px 10px 0 0;
-    width: 330px;
-    height: 460px;
+    border-radius: 10px 10px 10px 10px;
+    width: 340px;
+    height: 550px;
     box-shadow: none;
   }
-
+  .profile-image-title h2{
+    font-size: 28px;
+  }
+  .profile-image-title h3{
+    font-size: 20px;
+  }
   .social-media-contact {
     width: 330px;
     border-radius: 0;
@@ -197,8 +211,8 @@ body {
   }
 
   .profile-bio h1 {
-    width: 200px;
-    font-size: 50px;
+    width: 300px;
+    font-size: 40px;
 
   }
 
@@ -206,29 +220,64 @@ body {
     width: 280px;
     font-size: 20px;
   }
+  .resume-project-btn{
+    padding: 0;
+    gap: 28px;
+  }
 
   .resume-project-btn button {
-    width: 5rem;
-    height: 1.3rem;
+    width: 5.8rem;
+    height: 2rem;
     background-color: #3b82f6;
     border: 0;
     border-radius: 7px;
     margin-top: 10px;
+    font-size: 19px;
+    padding-bottom: 3px;
   }
   .resume-project-btn a {
-    color: white;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 13px;
   }
-  .resume-project-btn button:hover {
+  .resume-project-btn button:hover{
     background-color: #5c636f;
-    border: solid 1px white;
+    border: solid 1px #3b82f6;
     width: 6.1rem;
     height: 1.8rem;
+    
   }
 
-  .resume-project-btn a:hover {
-    color: white;
+}
+
+@media (max-width: 1180px){
+  .profile-continer {
+    background-color: #1e1e2f;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 140vh;
   }
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 140px;
+  }
+  .profile-bio {
+    gap: 10px;
+    padding: 0;
+    width: 440px;
+    padding-bottom: 0;
+    letter-spacing: 1.2px;
+  }
+  .profile-continer {
+    background-color: #1e1e2f;
+    width: 100%;
+    height: 110vh;
+    padding-top: 10px;
+    padding-bottom: 1500px;
+  }
+  
 }

@@ -1,6 +1,16 @@
 
 .profile-img img {
-  width: 200px;
-  height: 200px;
+  width: 310px;
+  height: 310px;
   border-radius: 100%;
+  border:3.5px solid #b9a17f ;
+}
+
+@media (max-width: 680px){
+  .profile-img img {
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    border:3.5px solid #b9a17f ;
+  }
 }
