@@ -141,15 +141,13 @@
   }
   .profile-img img {
     max-height: 400px;
-    width: 100%;
-    padding-top: 70px;
     height: auto;
     /* Maintain aspect ratio */
     flex: auto;
     /* Allow images to grow and shrink */
-
-    transform: scaleX(-1);
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 0px 100px 0px 100px;
+    margin-top: 30px;
   }
   button:hover {
     background-color: black;
