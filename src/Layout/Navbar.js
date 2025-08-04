@@ -20,9 +20,15 @@ export default function Navbar() {
       </div>
 
       <ul className={`list-item ${isOpen ? "open" : ""}`}>
-        <li>Home</li>
-        <li>Project</li>
-        <li>Contact</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#projects">Project</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
       </ul>
     </nav>
   );
