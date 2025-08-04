@@ -14,7 +14,7 @@ export default function Home() {
           <div className="profile-bio">
             <h3 className="bio-title">Full-Stack Software Developer</h3>
             <p className="bio">
-              I'm a Full Stack Developer with 1+ years of experience building
+              I'm a Full Stack Developer with 2+ years of experience building
               modern web applications. I specialize in creating fast, scalable,
               and user-friendly solutions using React, Node.js, Express, and
               MongoDB/PostgreSQL.
