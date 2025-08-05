@@ -20,7 +20,9 @@ export default function Home() {
               MongoDB/PostgreSQL.
             </p>
             <div className="bio-btn">
-              <button className="active-btn">Contect</button>
+              <a href="#contact">
+                <button className="active-btn">Contect</button>
+              </a>
               <button className="btn">Download CV</button>
             </div>
           </div>
