@@ -66,13 +66,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bio-footer">
-        <p>
-          From responsive frontends to powerful backends and APIs, I handle the
-          full development cycle and work well with teams to deliver clean,
-          effective code.
-        </p>
-      </div>
     </div>
   );
 }

@@ -27,6 +27,15 @@ export default function Projects() {
       <div className="project-box">
         <img alt="website template" src={Project3}></img>
       </div>
+      <div className="project-box">
+        <img alt="website template" src={Project1}></img>
+      </div>
+      <div className="project-box">
+        <img alt="website template" src={Project2}></img>
+      </div>
+      <div className="project-box">
+        <img alt="website template" src={Project3}></img>
+      </div>
     </div>
   );
 }

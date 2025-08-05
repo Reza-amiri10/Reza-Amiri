@@ -23,13 +23,14 @@
   border-radius: 0 100px 0px 100px;
 }
 .bio-title {
-  font-size: 3rem;
+  max-width: 400px;
+  font-size: 2.9rem;
   font-weight: 300;
   margin: 0;
 }
 .bio {
   max-width: 500px;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 200;
 }
 .hero {
@@ -96,23 +97,7 @@
   box-sizing: border-box;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.bio-footer {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #2a292b;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 100%;
-  height: 180px;
-  margin: 0;
-  margin-top: 200px;
-}
-.bio-footer p {
-  padding: 20px;
-  font-weight: 200;
-  font-size: 1rem;
-}
+
 .skills-box img {
   width: 30px;
   height: 30px;

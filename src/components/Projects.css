@@ -13,6 +13,7 @@
   max-width: 100%;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .project-box img {
   width: 100%;
@@ -25,7 +26,7 @@
   transform: scale(1.5);
 }
 .project-them h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   background-color: #f8f9fa;
   padding: 16px;
@@ -34,7 +35,7 @@
   text-align: center;
 }
 .project-them p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 200;
 }
 @media (max-width: 900px) {

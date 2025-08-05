@@ -1,6 +1,7 @@
 import Navbar from "./Layout/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
+import Footer from "./Layout/Footer";
 import "./App.css";
 function App() {
   return (
@@ -9,8 +10,18 @@ function App() {
       <div id="home">
         <Home />
       </div>
+      <div className="bio-footer">
+        <p>
+          From responsive frontends to powerful backends and APIs, I handle the
+          full development cycle and work well with teams to deliver clean,
+          effective code.
+        </p>
+      </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="contact" className="footer">
+        <Footer />
       </div>
     </div>
   );
