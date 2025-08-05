@@ -28,11 +28,9 @@ export default function Footer() {
                 alt="linkdin icon"
                 src={Linkdin}
               ></img>
-              <p>Linkdin</p>
             </a>
             <a className="anker-link" href="https://github.com/Reza-amiri10">
               <img className="social-icon" alt="github icon" src={Github}></img>
-              <p>Github</p>
             </a>
             <a
               className="anker-link"
@@ -43,7 +41,6 @@ export default function Footer() {
                 alt="facebook icon"
                 src={Facebook}
               ></img>
-              <p>Facebook</p>
             </a>
             <a
               className="anker-link"
@@ -54,7 +51,6 @@ export default function Footer() {
                 alt="whatsapp icon"
                 src={WhatsApp}
               ></img>
-              <p>+905523911957</p>
             </a>
             <a
               className="anker-link"
@@ -69,7 +65,9 @@ export default function Footer() {
           <input type="text" placeholder="John"></input>
           <input type="email" placeholder="yourMail@gmail.com"></input>
           <textarea type="text" placeholder="Your message.."></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit" onClick={(e) => e.preventDefault()}>
+            Submit
+          </button>
         </form>
       </div>
     </footer>

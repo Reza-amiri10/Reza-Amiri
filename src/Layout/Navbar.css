@@ -52,8 +52,8 @@
 
 .list-item li {
   width: 77px;
-  height: 24px;
-  padding-top: 4px;
+  height: 27px;
+  padding-top: 7px;
   text-align: center;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -61,7 +61,7 @@
 }
 
 .list-item li:hover {
-  background-color: #aaa;
+  background-color: #e0dfdf;
   color: white;
 }
 
@@ -71,10 +71,8 @@
   font-size: 2.4rem;
   cursor: pointer;
   padding: 0;
-  padding-left: 10px;
   padding-bottom: 5px;
 }
-
 /* Responsive styles */
 @media (max-width: 768px) {
   .menu-toggle {
@@ -93,16 +91,19 @@
     padding: 0;
     margin-top: 10px;
   }
-
+  .navbar ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .list-item.open {
     display: flex;
-    align-items: end;
+    align-items: center;
     border-bottom: solid black 1px;
   }
   .navbar {
     border-radius: 50px;
     z-index: 1000;
-    width: 300px;
+    width: 340px;
     margin-top: 30px;
   }
 }

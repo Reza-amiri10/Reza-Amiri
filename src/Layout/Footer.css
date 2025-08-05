@@ -4,7 +4,9 @@
   font-size: 1.8rem;
   font-weight: 300;
   color: #ffffff;
-  max-width: 300px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
 }
 .footer p {
   font-size: 0.9rem;
@@ -72,7 +74,7 @@ button:hover {
 }
 .social-icon {
   width: 20px;
-  border: solid #ffffff 0.1px;
+  border: solid #ffffff 1px;
   border-radius: 4px;
   background-color: #ffffff;
 }
@@ -82,7 +84,9 @@ button:hover {
   align-items: center;
   gap: 0.4rem;
 }
-
+.social-icon:hover {
+  width: 22px;
+}
 /* Media query for smaller screens */
 @media (max-width: 900px) {
   .footer-form {
@@ -94,7 +98,7 @@ button:hover {
   .contact-them {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
   .footer h3 {
     text-align: center;
@@ -108,6 +112,7 @@ button:hover {
   .social-m-box {
     display: flex;
     flex-direction: row;
+    align-items: start;
     gap: 10px;
   }
 }

@@ -1,9 +1,14 @@
+import { useState } from "react";
 import "./Projects.css";
 import Project1 from "./project1.png";
-import Project2 from "./project2.png";
-import Project3 from "./project3.png";
+import Project2 from "./project2.jpg";
+import Project3 from "./project3.jpg";
+import Project4 from "./project4.png";
+import Project44 from "./project44.png";
 
 export default function Projects() {
+  const [isHover, setIsHover] = useState(false);
+
   return (
     <div className="projects-continer">
       <div className="project-them">
@@ -19,22 +24,21 @@ export default function Projects() {
         </p>
       </div>
       <div className="project-box">
-        <img alt="website template" src={Project1}></img>
+        <img alt="website template" src={Project4}></img>
       </div>
       <div className="project-box">
         <img alt="website template" src={Project2}></img>
       </div>
       <div className="project-box">
-        <img alt="website template" src={Project3}></img>
+        <img
+          alt="website template"
+          src={!isHover ? Project3 : Project44}
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
+        ></img>
       </div>
       <div className="project-box">
         <img alt="website template" src={Project1}></img>
-      </div>
-      <div className="project-box">
-        <img alt="website template" src={Project2}></img>
-      </div>
-      <div className="project-box">
-        <img alt="website template" src={Project3}></img>
       </div>
     </div>
   );
