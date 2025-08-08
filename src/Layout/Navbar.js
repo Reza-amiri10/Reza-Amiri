@@ -7,13 +7,15 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="profile">
-        <img alt="profile" src={Profile} />
-        <div className="iam">
-          <p className="reza">I'm Reza.</p>
-          <p className="dev">Developer</p>
+      <a href="#home">
+        <div className="profile">
+          <img alt="profile" src={Profile} />
+          <div className="iam">
+            <p className="reza">I'm Reza.</p>
+            <p className="dev">Developer</p>
+          </div>
         </div>
-      </div>
+      </a>
 
       <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
         ☰
