@@ -1,9 +1,3 @@
-import Linkdin from "./linkedin.png";
-import Facebook from "./facebook.png";
-import WhatsApp from "./whatsapp.png";
-import Github from "./github-sign.png";
-import Gmail from "./envelope.png";
-
 import Swal from "sweetalert2";
 
 import "./Footer.css";
@@ -88,17 +82,21 @@ export default function Footer() {
               <img
                 className="social-icon"
                 alt="linkdin icon"
-                src={Linkdin}
+                src="/images/linkedin.png"
               ></img>
             </a>
             <a className="anker-link" href="https://github.com/Reza-amiri10">
-              <img className="social-icon" alt="github icon" src={Github}></img>
+              <img
+                className="social-icon"
+                alt="github icon"
+                src="/images/github-sign.png"
+              ></img>
             </a>
             <a className="anker-link" href="">
               <img
                 className="social-icon"
                 alt="facebook icon"
-                src={Facebook}
+                src="/images/facebook.png"
               ></img>
             </a>
             <a
@@ -110,11 +108,15 @@ export default function Footer() {
               <img
                 className="social-icon"
                 alt="whatsapp icon"
-                src={WhatsApp}
+                src="/images/whatsapp.png"
               ></img>
             </a>
             <a className="anker-link" href="mailto:gholam2015m@gmail.com">
-              <img className="social-icon" alt="envelop icon" src={Gmail}></img>
+              <img
+                className="social-icon"
+                alt="envelop icon"
+                src="/images/envelope.png"
+              ></img>
               <p>gholam2015m@gmail.com</p>
             </a>
           </div>

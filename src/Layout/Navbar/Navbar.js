@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Profile from "./pro.jpeg";
+
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="navbar">
       <a href="#home">
         <div className="profile">
-          <img alt="profile" src={Profile} />
+          <img src="/images/pro.jpeg" alt="profile" />
           <div className="iam">
             <p className="reza">I'm Reza.</p>
             <p className="dev">Developer</p>

@@ -1,9 +1,3 @@
-import React from "react";
-import Design from "./design.png";
-import BackEnd from "./back-end.png";
-import DataBase from "./database-storage.png";
-import Profile from "../Layout/pro.png";
-
 import "./Home.css";
 
 export default function Home() {
@@ -27,13 +21,13 @@ export default function Home() {
             </div>
           </div>
           <div className="profile-img">
-            <img alt="profile" src={Profile}></img>
+            <img alt="profile" src="/images/pro.png"></img>
           </div>
         </div>
         <div className="skills-continer">
           <div className="skills-box">
             <div className="icon-title">
-              <img alt="ux/ui icon" src={Design}></img>
+              <img alt="ux/ui icon" src="/images/design.png"></img>
               <h3>Frontend</h3>
             </div>
             <ul className="skills-list">
@@ -44,7 +38,7 @@ export default function Home() {
           </div>
           <div className="skills-box">
             <div className="icon-title">
-              <img alt="back-end icon" src={BackEnd}></img>
+              <img alt="back-end icon" src="/images/back-end.png"></img>
               <h3>Backend</h3>
             </div>
             <ul className="skills-list">
@@ -58,7 +52,7 @@ export default function Home() {
           </div>
           <div className="skills-box">
             <div className="icon-title">
-              <img alt="database icon" src={DataBase}></img>
+              <img alt="database icon" src="/images/database-storage.png"></img>
               <h3>Database</h3>
             </div>
             <ul className="skills-list">
